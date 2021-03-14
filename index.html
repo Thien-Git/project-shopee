@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./coffee.html">
@@ -14,8 +16,8 @@
     <!-- Block Element Modifier -->
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--separate header__navbar-item--has-qr">
                             Chào mừng bạn đến với Suri Coffee
@@ -101,7 +103,7 @@
                 </nav>
                 <!-- header-with-search -->
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-mobile-tablet">
                         <svg viewBox="0 0 192 65" class="header__logo-img">
                             <g fill-rule="evenodd">
                                 <path fill="#fff"
@@ -149,14 +151,94 @@
                     <div class="header__cart">
                         <div class="header__cart-wrap">
                             <i class="header__cart-icon fas fa-shopping-cart"></i>
-                            <span class="header__cart-notice">1</span>
-                            <div class="header__cart-list--no-cart">
-                                <img src="./img/no-cart.png" alt="">
-                                <span>Chưa có sản phẩm</span>
+                            <span class="header__cart-notice">3</span>
+                            
+                            <div class="header__cart-list--has-cart">
+                                <div class="header__cart-list--no-cart">
+                                    <img src="./img/no-cart.png" alt="">
+                                    <span>Chưa có sản phẩm</span>
+                                </div>
+                                <span class="header__cart-notify-header">Sản phẩm đã thêm</span>
+                                <ul class="header__cart-list header__notify-list">
+                                    <li class="header__notify-item header__cart-notify-item-viewer">
+                                        <a href="" class="header__cart-notify-link">
+                                            <img src="./img/chinesenewyear.jpg"
+                                                alt="img" class="header__notify-img">
+                                            <div class="header__cart-info-wrap">
+                                                <div class="header__cart-notify-info">
+                                                    <span class="header__cart-notify-name">Giày Nike Jordan</span>
+                                                    <span class="header__cart-notify-des">Phân loại: chính hãng</span>
+                                                </div>
+                                                <div class="header__cart-notify-info-price">
+                                                    <span class="header__cart-notify-price">2.050.000 vnd  x2</span>
+                                                    <span class="header__cart-notify-del">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__cart-notify-item-viewer">
+                                        <a href="" class="header__cart-notify-link">
+                                            <img src="./img/chinesenewyear.jpg"
+                                                alt="img" class="header__notify-img">
+                                            <div class="header__cart-info-wrap">
+                                                <div class="header__cart-notify-info">
+                                                    <span class="header__cart-notify-name">Giày Nike Jordan</span>
+                                                    <span class="header__cart-notify-des">Phân loại: chính hãng</span>
+                                                </div>
+                                                <div class="header__cart-notify-info-price">
+                                                    <span class="header__cart-notify-price">2.050.000 vnd  x2</span>
+                                                    <span class="header__cart-notify-del">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__cart-notify-item-viewer">
+                                        <a href="" class="header__cart-notify-link">
+                                            <img src="./img/chinesenewyear.jpg"
+                                                alt="img" class="header__notify-img">
+                                            <div class="header__cart-info-wrap">
+                                                <div class="header__cart-notify-info">
+                                                    <span class="header__cart-notify-name">Giày Nike Jordan</span>
+                                                    <span class="header__cart-notify-des">Phân loại: chính hãng</span>
+                                                </div>
+                                                <div class="header__cart-notify-info-price">
+                                                    <span class="header__cart-notify-price">2.050.000 vnd  x2</span>
+                                                    <span class="header__cart-notify-del">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__cart-notify-item-viewer">
+                                        <a href="" class="header__cart-notify-link">
+                                            <img src="./img/chinesenewyear.jpg"
+                                                alt="img" class="header__notify-img">
+                                            <div class="header__cart-info-wrap">
+                                                <div class="header__cart-notify-info">
+                                                    <span class="header__cart-notify-name">Giày Nike Jordan</span>
+                                                    <span class="header__cart-notify-des">Phân loại: chính hãng</span>
+                                                </div>
+                                                <div class="header__cart-notify-info-price">
+                                                    <span class="header__cart-notify-price">2.050.000 vnd  x2</span>
+                                                    <span class="header__cart-notify-del">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-btn">
+                                        <button class="home-filter__cart-btn btn btn--primary">Xem giỏ hàng</button>
+                                    </li>
+                                  
+                                    
+                                </ul>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="header__link">
+                   
+                    
+                        
+                    </div>
+                    <div class="header__link hide-on-mobile-tablet">
                         <ul class="header__link-list">
                             <li class="header__link-item"><a href="">Hoodie Nam</a></li>
                             <li class="header__link-item"><a href="">Sandal Nữ</a></li>
@@ -174,7 +256,7 @@
         </header>
 
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -184,19 +266,19 @@
 
                             <ul class="category-list">
                                 <li class="category-item">
-                                    <a href="#" class="category-item__link">Cà phê Robusta</a>
+                                    <a href="./fastcoding/index.html" class="category-item__link">Fastcoding Theme</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="#" class="category-item__link">Cà phê Chè</a>
+                                    <a href="./javascriptclock/index.html" class="category-item__link">JavascriptClock</a>
                                 </li>
                                 <li class="category-item">
-                                    <a href="#" class="category-item__link">Cà phê Vối</a>
+                                    <a href="./dogweb/index.html" class="category-item__link">Dog Website</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary">Mới nhất</button>
@@ -862,7 +944,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__column-2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
@@ -934,7 +1016,7 @@
                 
             </div>
             <div class="footer__bottom">
-                <div class="grid">
+                <div class="grid wide">
                     <p class="footer__text">
                         ©2020 - Bản quyền thuộc về Công ty TNHH ThienVu
                     </p>

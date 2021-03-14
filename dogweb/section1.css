@@ -1,0 +1,71 @@
+.header{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;;
+}
+.header h3{
+    color:#82A501;
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 60px;
+    letter-spacing: 1.5px;
+}
+.header p{
+    opacity: 0.5;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.service-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 154px;
+    margin: 50px 70px 0px 70px;
+
+}
+.service-1 div{
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.service-1 i{
+    font-size: 60px;
+    color: goldenrod;
+    margin: 35px;
+}
+.service-1 h4{
+    font-style: italic;
+    margin: 10px;
+    letter-spacing: 2px;
+    color: green;
+}
+.service-1 p{
+    line-height: 28px;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.service-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 154px;
+    margin: 50px 70px 60px 70px;
+}
+.service-2 div{
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+}
+.service-2 i{
+    font-size: 60px;
+    color: blueviolet;
+    margin: 35px;
+}
+.service-2 h4{
+    font-style: italic;
+    margin: 10px;
+    letter-spacing: 2px;
+    color: green;
+}
+.service-2 p{
+    line-height: 28px;
+    font-size: 18px;
+    opacity: 0.6;
+}

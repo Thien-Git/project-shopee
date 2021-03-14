@@ -1,0 +1,104 @@
+.footer{
+    position: relative;
+    min-height: 300px;
+    z-index: 9;
+    background-color: #3D3C3D;
+}
+
+.stay-conected{
+    width: 100%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+.ul-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.ul-footer .facebook{
+    width: 35px;
+    height: 35px;
+}
+
+.ul-footer .twitter{
+    width: 35px;
+    height: 35px;
+}
+
+.ul-footer .google{
+    width: 35px;
+    height: 35px;
+}
+.fb:hover{
+    background-color: #4267B2;
+
+}
+
+.tw:hover{
+    background-color:#1DA1F2;
+}
+
+.gg:hover{
+    background-color: red;
+}
+
+
+.li-footer{
+    margin: 0px 20px;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.li-footer i{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 0;
+    text-align: center;
+}
+
+
+.reserver{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #363536;
+    color: white;
+    z-index: 10;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.w3layouts-link{
+    color: white;
+}
+
+.w3layouts-link:hover{
+    color: green;
+    translate: 1s;
+
+}
+
+.top-move{
+    position: fixed;
+    bottom: 45px;
+    right: 10px;
+    z-index: 9999999;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.top-move:hover{
+    opacity: 1;
+}

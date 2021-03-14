@@ -1,0 +1,131 @@
+
+/* .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+/* .container-1{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    position: relative;
+    
+} */
+.container-1{
+    display: flex;
+    width: 80%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.container-img{
+    width: 40%;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    max-height: 304px;
+
+}
+.container-img:hover{
+    transform: translate3d(-15px, 5px, 0px);
+    transition: 0.5s;
+}
+
+.img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.container-intro{
+    width: 60%;
+
+}
+.note1{
+    position: absolute;
+    top: -33px;
+    right: -50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50% ;
+    padding: 10px 50px 20px 10px;
+    color: white;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: thistle;
+    display: inline-block;
+    
+}
+.note1:hover{
+    opacity: 1;
+    background-color:  rgba(95, 255, 2, 0.6);
+    transform: translate3d(-15px, 5px, 0px);
+    padding: 40px 60px 30px 15px;
+    box-shadow: 0 0 0 900px rgba(255, 255, 255, 0.2);
+}
+
+.note2{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: yellow;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+.container-1 h3{
+    color: #48c7d6;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.container-1 p{
+    display: block;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    opacity: 0.7;  
+}
+
+.container-1 span{
+    margin-top: 25px;
+    display: block;
+}
+/* .container-img::before{
+    content: '';
+    display: inline-block;
+    width:90%;
+    padding-top: 70%;
+    position: relative;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+}  */
+.container-1:nth-child(ood) .container-img{
+    order: -1;
+}
+
+.container-1:nth-child(even) .container-img{
+    order: 1;
+}
+.design{
+    color: saddlebrown;
+}
